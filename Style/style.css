@@ -1,7 +1,15 @@
+.body{
+    margin: 0;
+    padding: 0;
+    
+
+
+}
 .header{
     display: flex;
-    border-bottom: 20px;
     background-color: #1F2937;
+    height: 50px;
+    
 }
 .hero {
     font-family: Roboto;
@@ -13,4 +21,92 @@
     font-style: normal;
     display:flex;
     color: #F9FAF8;
+    gap: 75px;
+    margin-left: 250px;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 750px;
+}
+
+.link {
+    color: #F9FAF8;
+    text-decoration: none;
+    display: flex;
+    flex: auto;
+}
+
+
+
+.sectionone {
+    display: flex;
+    justify-content: space-evenly;
+    color: #1F2937;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.sectiontwo {
+    color:#1F2937;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.sectionthree {
+    display: flex;
+    justify-content: space-evenly;
+    color: #1F2937;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.sectionfour {
+display: flex;
+    background-color:#1F2937;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+
+}
+
+.sectionfive {
+    display: flex;
+    color: #F9FAF8;
+        background-color:black;
+        height: 200px;
+        align-items: center;
+        justify-content: center;
+        height: 45px;
+    
+    }
+
+
+
+p {
+    font-size:xx-large;
+}
+
+h2 {
+    width: 350px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 5%;
+
 }
